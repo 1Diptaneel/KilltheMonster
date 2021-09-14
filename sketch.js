@@ -17,6 +17,7 @@ var sound;
 function preload(){
     backgroundImage=loadImage("bg.png")
 sun=loadImage("sun.png")
+sound=loadSound("8d82b5_Street_Fighter_New_Challenger_Sound_Effect.mp3")
 }
 
 function setup(){
@@ -65,6 +66,7 @@ function draw(){
     textSize(30)
     text("Drag The Mouse To Move Superman And Kill The Bad Monster!!",10,30)
 image(sun,1200,10,100,100)
+//sound.loop()
 
     ground.display();
     
